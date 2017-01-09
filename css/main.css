@@ -1,0 +1,32 @@
+body {
+    background: white; /*url("https://media.giphy.com/media/snZkz7CFj2bMQ/giphy.gif") no-repeat center center fixed;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:  cover;
+    color: black;
+}
+
+
+.well {
+    background-color: white;
+    font-color: black;
+    border: none;
+}
+.hub {
+    text-align: center;
+    margin-top: 10%;
+    background-color: transparent;
+    color: ghostwhite;
+    
+}
+
+.formSpace {
+    padding-bottom: 1%;
+}
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+}
