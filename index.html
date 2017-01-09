@@ -7,6 +7,7 @@
      
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/main.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
  </head>
     
     
@@ -14,21 +15,30 @@
  <body>
      
      <div>
-        <div class="well hub col-lg-6 col-lg-offset-3">
-            <h1>Weather</h1>
+        <div class=" hub col-lg-6 col-lg-offset-3">
+            <h1 id="zipRequest">Enter your zip:</h1>
+            <h3 class="temp"></h3>
             <h3 class="location"></h3>
             <h3 class="conditions"></h3>
-            <h3 class="temp"></h3>
+            
 
-            <form class="form-line formSpace">
-                <button type="button" id="fah" class="btn">°F</button>
-              <button type="button" id="cel" class="btn">°C</button>
+            <form class="form-line formSpace" id="buttonBar">
+                <!-- Spaceholder for buttons -->
             </form>
 
-            <form class="form-inline">
+
+            <form class="form-inline" id="searchBar">
                 <input type="search" class="form-control" id="zip" placeholder="Enter zip">
                 <button type="button" id="submit" class="btn btn-default">Submit</button>
-            </form> 
+            </form>
+
+            <!--
+            <div class="container">
+                <span class="icon"><i class="fa fa-search"></i></span>
+                <input type="search" id="search" placeholder="Enter zip..." />
+            </div>
+            -->
+            <div class="parent"></div>
         </div>
      </div>
      
